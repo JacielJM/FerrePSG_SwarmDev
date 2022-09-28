@@ -1,19 +1,19 @@
 html {
-  /* font-size: 62.5%; */
-  font-family: 'Roboto', sans-serif;
+	/* font-size: 62.5%; */
+	font-family: 'Roboto', sans-serif;
 }
 
 /* Barra de busqueda */
 .container {
-  margin-top: 1.5rem;
+	margin-top: 1.5rem;
 }
 .searchbar {
-  margin-top: 3rem;
-  height: 3rem !important;
-  font-size: 1.5rem;
-  padding-left: 2rem;
-  border-radius: 12px 0 0 12px;
-  border: 1px solid #d9d9d9;
+	margin-top: 3rem;
+	height: 3rem !important;
+	font-size: 1.5rem;
+	padding-left: 2rem;
+	border-radius: 12px 0 0 12px;
+	border: 1px solid #d9d9d9;
 }
 .search__button {
 	height: 3rem !important;
@@ -25,20 +25,20 @@ html {
 	width: 100px;
 }
 .button__cart {
-  height: 4rem !important;
-  border-radius: 0 12px 12px 0;
-  background-color: rgb(31, 111, 139) !important;
-  color: white;
-  transition: all 0.3s ease 0s;
-  width: 100px;
+	height: 4rem !important;
+	border-radius: 0 12px 12px 0;
+	background-color: rgb(31, 111, 139) !important;
+	color: white;
+	transition: all 0.3s ease 0s;
+	width: 100px;
 }
 .search__button:hover {
 	background-color: rgba(28, 43, 45, 0.8) !important;
 	color: #ffffff;
 }
 .button__cart:hover {
-  background-color: rgba(28, 43, 45, 0.8) !important;
-  color: #ffffff;
+	background-color: rgba(28, 43, 45, 0.8) !important;
+	color: #ffffff;
 }
 
 .card_nombre {
@@ -51,22 +51,22 @@ html {
 
 /* Carrito de compras */
 
-nav {
+/* nav {
   font-family: Days One, sans-serif;
   font-size: 1.2rem;
-}
+} */
 /* Filtros */
 select {
-  background-color: transparent;
-  border: 1px solid #d9d9d9;
-  border-radius: 12px;
-  width: 140px;
-  padding: 0.5rem;
+	background-color: transparent;
+	border: 1px solid #d9d9d9;
+	border-radius: 12px;
+	width: 140px;
+	padding: 0.5rem;
 }
 
 /* Productos */
 .seccion {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 /*Footer*/
@@ -105,6 +105,3 @@ span {
 footer a:hover {
 	color: #d9d9d9;
 }
-
-
-
