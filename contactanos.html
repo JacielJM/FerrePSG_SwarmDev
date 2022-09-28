@@ -5,16 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/public/src/styles/custom-boostrap.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <link rel="stylesheet" href="/public/css/contacto.css">
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+  <link rel="stylesheet" href="./public/src/styles/custom-boostrap.css">
+  <link rel="stylesheet" href="./public/css/header.css">
+  <link rel="stylesheet" href="./public/css/contacto.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Days+One&family=Roboto:wght@500&display=swap%27">
   <link rel="shortcut icon" href="../src/assets/favicon-32x32.png" sizes="32x32" type="image/x-icon" />
@@ -22,68 +18,67 @@
 </head>
 
 <body>
-  <d class="container">
-    <!-- HEADER / NAVBAR -->
-    <nav class="navbar navbar-expand-lg bg-psgblue">
-      <div class="container-fluid">
-        <a class="navbar-brand text-psglightgold" href="/public/paginaprincipal.html"><img
-            src="/public/src/img/navbar-logo-night.png" height="72" width="128"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link text-psglightgold mx-2" href="/public/aboutUs.html">Sobre Nosotros</a>
-            <a class="nav-link text-psglightgold mx-2" href="/public/lista_productos.html">Productos</a>
-            <a class="nav-link text-psglightgold mx-2" href="/public/segundamano.html">Segunda Mano</a>
-            <a class="nav-link text-psglightgold mx-2" href="/public/garantia.html">Garantías</a>
-            <a class="nav-link text-psglightgold mx-2" href="/public/contactanos.html">Contacto</a>
-            <!-- <a class="nav-link text-psglightgold mx-2" href="/">Carrito de Compras</a> -->
-            <a class="nav-link text-psglightgold mx-2" href="/public/register.html">Registro</a>
-            <a class="nav-link text-psglightgold mx-2" href="../loginv2.html">Iniciar Sesión</a>
-          </div>
+  <!-- HEADER / NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-psgblue">
+    <div class="container-fluid">
+      <a class="navbar-brand text-psglightgold" href="./index.html"><img src="/public/src/img/navbar-logo-night.png"
+          height="72" width="128"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link text-psglightgold mx-2" href="./aboutUs.html">Sobre Nosotros</a>
+          <a class="nav-link text-psglightgold mx-2" href="./lista_productos.html">Productos</a>
+          <a class="nav-link text-psglightgold mx-2" href="./segundamano.html">Segunda Mano</a>
+          <a class="nav-link text-psglightgold mx-2" href="./garantia.html">Garantías</a>
+          <a class="nav-link text-psglightgold mx-2" href="./contactanos.html">Contacto</a>
+          <!-- <a class="nav-link text-psglightgold mx-2" href="/">Carrito de Compras</a> -->
+          <a class="nav-link text-psglightgold mx-2" href="./register.html">Registro</a>
+          <a class="nav-link text-psglightgold mx-2" href="./login.html">Iniciar Sesión</a>
         </div>
       </div>
-    </nav>
-
-    <h1>Contáctanos</h1>
-    
-
-    <div class="container">
-
-      <form class="mt-3">
-
-        <div class="row mb-3">
-          <label class="col-2 col-form-label" for="nameInput">Nombre</label>
-          <div>
-            <input type="text" class="form-control" id="nameInput" placeholder="Ingrese su nombre aquí">
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label class="col-2 col-form-label" for="emailInput">Email</label>
-          <div>
-            <input type="email" class="form-control" id="emailInput" placeholder="Ingrese su correo electrónico">
-          </div>
-        </div>
-
-        <div class="row mb-3">
-          <label class="col-2 col-form-label" for="messageInput">Mensaje</label>
-          <div>
-            <input type="text" class="form-control" id="messageInput" placeholder="Ingrese su mensaje">
-          </div>
-        </div>
-
-        
-          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-       
-
-
-      </form>
     </div>
+  </nav>
 
-    <!-- Footer -->
+  <h1>Contáctanos</h1>
+
+
+  <div class="container">
+
+    <form class="mt-3">
+
+      <div class="row mb-3">
+        <label class="col-2 col-form-label" for="nameInput">Nombre</label>
+        <div>
+          <input type="text" class="form-control" id="nameInput" placeholder="Ingrese su nombre aquí">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <label class="col-2 col-form-label" for="emailInput">Email</label>
+        <div>
+          <input type="email" class="form-control" id="emailInput" placeholder="Ingrese su correo electrónico">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <label class="col-2 col-form-label" for="messageInput">Mensaje</label>
+        <div>
+          <input type="text" class="form-control" id="messageInput" placeholder="Ingrese su mensaje">
+        </div>
+      </div>
+
+
+      <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+
+
+
+    </form>
+  </div>
+
+  <!-- Footer -->
   <!--Newsletter y links-->
   <section class="newsletter-links bg-psgblue">
     <div class="container">
