@@ -5,7 +5,7 @@
     "nombre": "Motobomba autocebante 2\" x 2\" a gasolina 7 HP, Truper",
     "precio": 3450.00,
     "rating": "4",
-    "imagen": "../src/assets/lista_productos/product_1.png"
+    "imagen": "./src/assets/lista_productos/product-1.png"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "nombre": "Esmeriladora angular 4-1/2\" 700 W, Pretul",
     "precio": 575.00,
     "rating": "4",
-    "imagen": "../src/assets/lista_productos/product_2.png"
+    "imagen": "./src/assets/lista_productos/product_2.png"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "nombre": "Arco 12\" de solera para segueta, Pretul",
     "precio": 89.00,
     "rating": "5",
-    "imagen": "../src/assets/lista_productos/product_3.png"
+    "imagen": "./src/assets/lista_productos/product_3.png"
   },
   {
     "id": 4,
