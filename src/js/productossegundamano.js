@@ -32,7 +32,7 @@ SearchBar.addEventListener('input', e => {
 
 const Productoss = async () => {
 	try {
-		const res = await fetch('../src/js/segundamano.json');
+		const res = await fetch('./src/js/segundamano.json');
 		segundamano = await res.json();
 		mostrarproductos(segundamano);
 	} catch (e) {
