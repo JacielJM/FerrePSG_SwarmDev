@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/custom-boostrap.css">
+    <link rel="stylesheet" href="./public/src/styles/custom-boostrap.css">
     <link rel="stylesheet" href="./public/css/garantias.css">
     <link rel="stylesheet" href="./public/css/header.css">
     <!-- <link rel="stylesheet" href="/public/css/aboutUs.css"> -->
@@ -22,11 +22,11 @@
     <!-- Iconos -->
     <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js" defer></script>
     <!-- Funciones -->
-    <script src="./../src/js/mainGarantia.js" type="module" async defer></script>
+    <script src="./src/js/mainGarantia.js" type="module" async defer></script>
 
     <!-- favicon  -->
-    <link rel="shortcut icon" href="../src/assets/favicon-16x16.png" sizes="16x16" type="image/x-icon" />
-    <link rel="shortcut icon" href="../src/assets/favicon-32x32.png" sizes="32x32" type="image/x-icon" />
+    <link rel="shortcut icon" href="./src/assets/favicon-16x16.png" sizes="16x16" type="image/x-icon" />
+    <link rel="shortcut icon" href="./src/assets/favicon-32x32.png" sizes="32x32" type="image/x-icon" />
 </head>
 
 <body>
@@ -34,8 +34,8 @@
     <!-- nav-bar -->
     <nav class="navbar navbar-expand-lg bg-psgblue">
         <div class="container-fluid">
-            <a class="navbar-brand text-psglightgold" href="/public/paginaprincipal.html"><img
-                    src="./../src/assets/psg-navbar-logo-night.png" height="72" width="128"></a>
+            <a class="navbar-brand text-psglightgold" href="./index.html"><img
+                    src="./src/assets/psg-navbar-logo-night.png" height="72" width="128"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -98,20 +98,6 @@
                             disabled />
                         <label class="form-label" for="purchaseDate"></label>
                     </div>
-
-                    <!-- <div class="input-group my-2 my-md-4">
-                        <label class="input-group-text" for="categoria">
-                            <iconify-icon icon="material-symbols:category-outline-rounded" style="color: #1f6f8b;"
-                                width="35">
-                            </iconify-icon>
-                        </label>
-                        <select class="form-select" id="categoria">
-                            <option selected>Elija una categoría...</option>
-                            <option value="1">Carpintería</option>
-                            <option value="2">Electricidad</option>
-                            <option value="3">Plomería</option>
-                        </select>
-                    </div> -->
 
                     <!-- Email input -->
                     <div class="input-group my-2 my-md-4">
@@ -229,7 +215,7 @@
                             <div class="toast-container position-fixed bottom-0 end-0 p-3">
                                 <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                                     <div class="toast-header">
-                                        <img src="/src/assets/favicon-32x32.png" class="rounded me-2" alt="...">
+                                        <img src="./src/assets/favicon-32x32.png" class="rounded me-2" alt="...">
                                         <strong class="me-auto">Ferretería PSG</strong>
                                         <small>Paypal</small>
                                         <button type="button" class="btn-close" data-bs-dismiss="toast"
@@ -296,8 +282,8 @@
                 <div class="col-md-4 text-psglightgold">
                     <p>Recursos</p>
                     <ul class="list-unstyled p-0">
-                        <li><a href="/public/tips.html">Tips</a></li>
-                        <li><a href="/public/faq.html">Preguntas frecuentes</a></li>
+                        <li><a href="./tips.html">Tips</a></li>
+                        <li><a href="./faq.html">Preguntas frecuentes</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 text-psglightgold">
@@ -330,7 +316,7 @@
                 rel="noopener noreferrer">SwarmDev</a>
         </div>
     </footer>
-    <script src="./../src/js/footerUniversal.js"></script>
+    <script src="./src/js/footerUniversal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>
