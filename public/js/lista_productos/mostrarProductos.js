@@ -77,7 +77,7 @@ ordenarMayorMenor.addEventListener('click', e => {
 export const obtenerProductos = async () => {
 	try {
 		// const res = await fetch('./js/lista_productos/db.json');
-		const res = await fetch('./db.json');
+		const res = await fetch('./public/js/lista_productos/db.json');
 		listProducts = await res.json();
 		mostrarProductos(listProducts);
 	} catch (e) {
